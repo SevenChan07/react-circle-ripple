@@ -1,0 +1,1 @@
+export { default as CircleRipple } from './components/CircleRipple'
