@@ -1,17 +1,24 @@
 {
   "name": "react-circle-ripple",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A component for circle ripple animation",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SevenChan07/react-circle-ripple.git"
   },
-  "author": "",
+  "author": "SevenChan07",
   "license": "ISC",
+  "keywords": [
+    "react",
+    "circle",
+    "ripple"
+  ],
   "bugs": {
     "url": "https://github.com/SevenChan07/react-circle-ripple/issues"
   },
