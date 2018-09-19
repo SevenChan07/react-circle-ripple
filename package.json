@@ -2,7 +2,7 @@
   "name": "react-circle-ripple",
   "version": "0.1.1",
   "description": "A component for circle ripple animation",
-  "main": "index.js",
+  "main": "dist/react-epic-spinners.umd.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
