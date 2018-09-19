@@ -3,8 +3,12 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 
 export default {
-  entry: 'src/index.js',
-  dest: 'dist/bundle.js',
+  input: 'src/index.js',
+  output: {
+    file: 'dist/react-circle-ripple.umd.js',
+    format: 'umd',
+    name: 'ReactCircleRipple',
+  },
   format: 'umd',
   moduleName: 'ReactCircleRipple', 
   plugins: [
